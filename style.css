@@ -1,0 +1,157 @@
+ @font-face {
+	font-family: 'EBGaramond-Regular';
+	src: url('EBGaramond-Regular.ttf');
+}
+
+.header
+{
+	margin: 0px;
+}
+
+ .top
+ {
+  
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b30000;
+  font-family: Verdana;
+  position: relative;
+  text-align: right;
+
+  }
+
+   li {
+  display: inline;
+
+  }
+
+  li a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: EBGaramond-Regular;
+  font-size: 25px;
+  color: #ffeee6;
+  }
+  
+  div {
+	  background: 50px;
+	  margin: 100px;
+	  background-color: #fff8f0;
+  }
+
+body
+{
+	background-color: #fff8f0;
+	width:100%;
+}
+
+
+p
+{
+    font-family: EBGaramond-Regular;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+	font-size: 24px;
+	
+}
+
+ol
+{
+	font-family: EBGaramond-Regular;
+	font-size: 23px;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+	list-style-type: upper-roman;
+}
+
+h1
+{
+    font-family: EBGaramond-Regular;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+}
+
+h2
+{
+    font-family: EBGaramond-Regular;
+	font-size: 35px;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+}
+
+h3
+{
+    font-family: EBGaramond-Regular;
+	font-size: 22px;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+}
+
+figcaption
+{
+	font-family: EBGaramond-Regular;
+	border: 20px #fff8f0 solid;
+	background-color: #fff8f0;
+	font-size: 22px;
+	text-align: right;
+}
+
+footer
+{
+	text-align: center;
+	a: center;
+}
+.under {
+  position: fixed;
+  margin-bottom:0;
+  width: 100%;
+}
+
+.bottom
+{
+	text-align: center;
+}
+
+.about
+{
+	font-size: 22px;
+}
+
+.small {
+	color: #990000;
+	font-size: 24px;
+}
+
+form
+{
+	text-align: center;
+	margin: 50px;
+	font-family: EBGaramond-Regular;
+	font-size: 22px;
+}
+
+
+
+.bottom
+{
+	text-align: center;
+}
+
+.column {
+
+  position: relative;
+  width: 33.33%;
+  padding: 5px;
+  flex: 33.33%;
+  margin: 0px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  padding: 5px;
+}
