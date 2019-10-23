@@ -102,6 +102,7 @@ figcaption
 
 footer
 {
+	
 	text-align: center;
 	a: center;
 }
@@ -154,4 +155,22 @@ form
   position: relative;
   display: flex;
   padding: 5px;
+}
+
+.container {
+	 position:relative;
+	  margin: 0 auto;
+	  top: 100px;
+	  bottom: 200px;
+}
+
+
+.alt-grid.row {
+text-align: center;
+margin: -100px;
+width: 1000px;
+}
+
+.col-sm-4 {
+	width: 400px;
 }
